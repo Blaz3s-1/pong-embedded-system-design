@@ -9,3 +9,14 @@ Library nessacary to install in order to run the game: <ul>
 <li>Adafruit_GFX.h</li>
 <li>Wire.h</li>
 </ul>
+
+
+Part nessacary require to make the game:
+<ul>
+<li>Arduino Nano (or Uno) x2</li>
+<li>IR LED</li>
+<li>IR Receiver</li>
+<li>Button x3</li>
+<li>Battery x2</li>
+<li>Battery cases x2</li>
+</ul>
