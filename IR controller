@@ -33,18 +33,18 @@ void loop() {
     if (digitalRead(b1) == HIGH) {
       timer = 0;
       delay(50);
-      irsend.sendNEC(0xEF30CF, 32); // up
+      irsend.sendNEC(0xAA1000, 32); // up
     }
 
     if (digitalRead(b2) == HIGH) {
       timer = 0;
       delay(50);
-      irsend.sendNEC(0xEF18E7, 32); // down
+      irsend.sendNEC(0xCC4470, 32); // down
     }
      if (digitalRead(b3) == HIGH) {
       timer = 0;
       delay(50);
-      irsend.sendNEC(0xFDCA35, 32); // start
+      irsend.sendNEC(0xFFFFFF, 32); // start
     }
 
     delay(1);
