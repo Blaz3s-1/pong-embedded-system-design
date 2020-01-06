@@ -4,8 +4,8 @@
 
 IRsend irsend;
 
-const int b1  = 4;  //
-const int b2  = 5;  //
+const int b1  = 4;
+const int b2  = 5;
 const int b3  = 6;
 
 
